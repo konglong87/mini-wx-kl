@@ -1,0 +1,35 @@
+/* pages/demo/demo.wxss */
+.banner{
+  height: 300rpx;
+  /* width: 200px; */
+  border: 2px solid red;
+  
+}
+
+.banner_item{
+  padding: 0 5px;
+
+  box-sizing: border-box; 
+  /* 变成一个内填充 */
+}
+
+.zhifu{
+  display:flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.btn1{
+  display:flex;
+  margin: 5px 0px;
+  text-align: center;
+  align-self: center;
+  justify-items: center;
+  justify-content: center;
+}
+.ipt1{
+  border: 1px solid red;
+  height: 200rpx;
+  padding: 8px 8px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,83 @@
+<!--pages/demo/demo.wxml-->
+<swiper class="banner" indicator-dots="true"  
+indicator-color="rgba(255, 255, 255, .5)"  ndicator-active-color="#fff"  autoplay  
+interval="2200"
+ circular  
+previous-margin="20"
+next-margin="20"
+duration="888">
+  <swiper-item class="banner_item">
+    <image src="/images/12.jpeg"></image>
+  </swiper-item >
+  <swiper-item class="banner_item">
+    <image src="/images/14.jpeg"></image>
+  </swiper-item>
+  <swiper-item class="banner_item">
+    <image src="/images/16.jpeg"></image>
+  </swiper-item>
+</swiper>
+
+<view style="text-align:center; padding:50px;">
+  <icon type="success" size="99"></icon>
+  <view>感谢您的提交</view>
+</view>
+
+<view class="login">
+  <button  class="btn1" type="primary">登录</button>
+  <button  class="btn1" type="primary" plain="true">登录镂空效果</button>
+  <button  class="btn1" loading="true">登录ing</button>
+  <button  class="btn1" type="warn">退出</button>
+  <button  class="btn1" size="mini" >支付</button>
+
+  <button  class="btn1" open-type="contact">联系客服</button>
+
+</view>
+
+<view style="text-align:center; margin:10px 10px;padding:77px;" >
+  <progress percent="77" show-info="true" font-size="27" border-radius="22" 
+  activeColor="black"
+  backgroundColor="yellow"
+  active="true"
+  bindactiveend="wancheng001"
+  ></progress>
+  <View>进度条</View>
+</view>
+
+<view class="zhifu">
+  <button  class="btn1" size="mini" >支2付</button>
+</view>
+
+
+
+<form action="" bindsubmit="onSubmit">
+  <input type="text" name="" id=""  class="ipt1" placeholder="他吗的" placeholder-style	="color:blue;font-size:77rpx" 
+  focus
+  cursor-spacing="77"
+
+  
+  />
+  <button form-type="submit"> 提交 </button>
+</form>
+
+<form action="" bindsubmit="onSubmit2">
+  <input type="text" name="" id=""  class="ipt1" placeholder="数值" placeholder-style	="color:blue;font-size:77rpx" 
+  focus
+  cursor-spacing="77"
+  type="number"
+  
+  />
+  <button form-type="submit"> 提交 </button>
+</form>
+
+
+<form action="" bindsubmit="onSubmit3">
+  <input type="text" name="" id=""  class="ipt1" placeholder="能" placeholder-style	="color:blue;font-size:77rpx" 
+  focus
+  cursor-spacing="77"
+  type="idcard"
+  
+  />
+  <button form-type="submit"> 提交 </button>
+</form>
+
+

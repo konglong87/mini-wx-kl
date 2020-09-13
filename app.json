@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0cc",
+    "navigationBarTitleText": "扩列+互赞",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#ff0"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/jiu001.png",
+        "selectedIconPath": "images/jiu002.png",
+        "text": "一起喝"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/user001.png",
+        "selectedIconPath": "images/user002.png",
+        "text": "做人"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "iconPath": "images/zhu001.png",
+        "selectedIconPath": "images/zhu002.png",
+        "text": "猪猪"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
