@@ -2,14 +2,15 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/demo/demo"
+    "pages/demo/demo",
+    "pages/demo3/demo3"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#0cc",
     "navigationBarTitleText": "扩列+互赞",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":true,
+    "enablePullDownRefresh":false,
     "backgroundColor": "#ff0"
   },
   "tabBar": {
@@ -18,13 +19,13 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/jiu001.png",
         "selectedIconPath": "images/jiu002.png",
-        "text": "一起喝"
+        "text": "互赞"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/demo3/demo3",
         "iconPath": "images/user001.png",
         "selectedIconPath": "images/user002.png",
-        "text": "做人"
+        "text": "扩列"
       },
       {
         "pagePath": "pages/demo/demo",

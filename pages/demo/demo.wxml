@@ -80,4 +80,16 @@ duration="888">
   <button form-type="submit"> 提交 </button>
 </form>
 
+<view wx:if="{{day==3}}" > 周三</view>
+<view wx:elif="{{day==4}}" > 周4</view>
+
+<view wx:if="{{true}}">
+<view>恐龙的扩列</view>
+</view>
+
+<!-- block不占用层级 -->
+<block wx:if="{{true}}">
+<view>恐龙的扩列2</view>
+</block>
+
 

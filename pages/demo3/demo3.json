@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "猪猪猪",
   "usingComponents": {},
+  "disableScroll":false,
   "enablePullDownRefresh":true
 }
