@@ -9,6 +9,29 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  // -------------------- //
+button001: function(){
+  wx.navigateTo({
+    url: '/pages/demo4/demo4?id=10099',
+  })
+},
+
+button002: function(){
+  wx.reLaunch({
+    url: '/pages/demo4/demo4?id=188789',
+  })
+},
+
+button003: function(){
+  wx.switchTab({
+    url: '/pages/demo4/demo4?id=222777',
+  })
+},
+ 
+
+  // ------------------ //
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

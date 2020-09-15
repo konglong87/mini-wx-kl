@@ -1,0 +1,92 @@
+/* pages/demo4/demo4.wxss */
+
+.out{
+  padding: 28rpx;
+  box-sizing: border-box;
+}
+.row0402{
+  display: flex;
+  height: 322rpx;
+  padding: 20rpx;
+}
+
+.pig0402{
+  flex: 5;
+}
+
+.pig0402 image{
+  width: 100%;
+  height: 100%;
+}
+
+.text0402{
+  flex: 8;
+  background-color: rgb(241, 7, 7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  border-bottom: black 2px solid;
+  padding-left: 10rpx;
+}
+.text0402 title{
+  font-size: 19px;
+}
+
+/* 上面对title的样式不生效，为啥，下面的生效*/
+.text0402 .title{
+  font-weight: 400;
+  font-size: 66rpx;
+}
+
+.text0402 .time{
+  color: darkblue;
+}
+
+
+
+
+
+
+.out05{
+  padding: 28rpx;
+  box-sizing: border-box;
+}
+.row0405{
+  display: flex;
+  height: 222rpx;
+  padding: 20rpx;
+}
+
+.pig0405{
+  flex: 5;
+}
+
+.pig0405 image{
+  width: 100%;
+  height: 100%;
+}
+
+.text0405{
+  flex: 8;
+  background-color: rgb(241, 7, 7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  border-bottom: black 2px solid;
+  padding-left: 10rpx;
+}
+.text0405 title{
+  font-size: 19px;
+}
+
+/* 上面对title的样式不生效，为啥，下面的生效*/
+.text0405 .title{
+  font-weight: 400;
+  font-size: 27rpx;
+}
+
+.text0405 .time{
+  color: darkblue;
+}

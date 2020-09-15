@@ -1,0 +1,53 @@
+<!--pages/demo4/demo4.wxml-->
+<text>pages/demo4/demo4.wxml</text>
+
+<button type="primary" bindtap="back0001" > 回去 </button>
+
+
+<view class="row04" >
+  <swiper autoplay="true" interval="2000" circular="true">
+    <swiper-item>
+      <image src="/images/find_pic_banner1_n.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/find_pic_banner2_n.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/find_pic_banner3_n.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<text decode="true"> &nbsp; </text>
+
+<text>  看👀广场的事  </text>
+
+<view class="out04">
+  <view class="row0402" wx:for="{{topicList}}" wx:key="row004">
+  <view class="pig0402">
+    <image src="{{item.url}}"></image>
+  </view>
+
+  <view class="text0402">
+    <view class="title">{{item.title}}</view>
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>
+</view>
+
+<view class="out05">
+  <view class="row0405" wx:for="{{resData}}" wx:for-item="obj" wx:key="row005">
+    <!-- <view >地址{{obj.picurl}}</view> -->
+  <view class="pig0405">
+    <image src="{{obj.picurl}}"></image>
+  </view>
+
+  <view class="text0405">
+    <view class="title">{{obj.title}}</view>
+    <view class="id">{{obj.id}}</view>
+    <view class="author">{{obj.author}}</view>
+    <view class="time">{{obj.posttime}}</view>
+  </view>
+</view>
+</view>
+

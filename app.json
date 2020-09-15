@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/demo/demo",
-    "pages/demo3/demo3"
+    "pages/demo3/demo3",
+    "pages/demo4/demo4"
   ],
   "window":{
     "backgroundTextStyle":"dark",
