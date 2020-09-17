@@ -17,3 +17,58 @@
 <view class="aaa">
   <image src="/images/find_pic_banner1_n.png"></image>
 </view> -->
+
+<view class="banner05">
+  <swiper autoplay="true" interval="2200" indicator-dots="true" circular="true" indicator-active-color="#fff"> 
+    <swiper-item>
+      <image mode="" src="/images/find_pic_banner11_n.png"></image>
+    </swiper-item>
+      <swiper-item>
+      <image src="/images/find_pic_banner12_n.png"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="/images/find_pic_banner13_n.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<scroll-view class="major" scroll-x="true">
+  <view class="majorCol">
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/room001.png"></image>
+      <view class="txt05"> 在线游戏 </view>
+    </navigator>
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/room002.png"></image>
+      <view class="txt05"> 聊天打怪 </view>
+    </navigator>
+
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/room004.png"></image>
+      <view class="txt05"> 陈大纪开 </view>
+    </navigator>
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/class001.png"></image>
+      <view class="txt05"> 季卡动画 </view>
+    </navigator>
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/class002.png"></image>
+      <view class="txt05"> 高中客糖 </view>
+    </navigator>
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/class003.png"></image>
+      <view class="txt05"> 初中学习 </view>
+    </navigator>
+
+    <navigator class="box05" url="">
+      <image class="pic05" mode="heightFix" src="/images/room003.png"></image>
+      <view class="txt05"> 吃播大户 </view>
+    </navigator>
+
+  </view>
+</scroll-view>

@@ -76,7 +76,7 @@
 .kefu{
   /* 不加这行，页面出不来，，，，子绝父相， */
   position: relative;
-  animation: dh001 1s infinite alternate linear;
+  animation: dh001 2s infinite alternate linear;
 
 }
  .kefu .btn05001{
@@ -93,3 +93,84 @@
    /* 由于在btn上加动画，btn还是会显示出来，所以把动画加到 整个  kefu 上面 */
    /* animation: dh001 1s infinite alternate linear; */
  }
+ .banner05 {
+   width: 100%;
+   height: 270rpx;
+ }
+ .banner05 swiper{
+  width: 100%;
+  height: 100%;
+ }
+
+ .banner05 image{
+  height: 270rpx;
+  width: 100%;
+ }
+/* 
+ .major .box05 image{
+  height: 100rpx;
+  width:  100rpx;
+} */
+
+ /* .box05 image{
+  height: 100rpx;
+  width:  100rpx;
+} 
+*/
+
+/* .major image{
+  height: 100rpx;
+  width:  100rpx;
+}
+*/
+
+.major .pic05{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.major{
+  white-space: nowrap;
+}
+.major .box05{
+  text-align: center;
+  padding: 0 0rpx;
+  width: 200rpx;
+  border: solid 1px rgb(185, 185, 6);
+  /* 加上这一行 就变成横向的 */
+  display: inline-block;
+}
+ .major .txt05{
+   font-size: 25rpx;
+   margin-top: 8rpx;
+ }
+
+
+
+
+
+/* 
+这是原来的布局 
+.major .majorCol{
+  padding: 20rpx 2rpx;
+  display: flex;
+  flex-wrap: nowrap;
+} 
+.major .box05{
+  text-align: center;
+  padding: 0 0rpx;
+  width: 200rpx;
+  border: solid 1px rgb(185, 185, 6);
+}
+.major .pic05{
+  width: 100rpx;
+  height: 100rpx;
+}
+ .major .txt05{
+   font-size: 25rpx;
+ }
+  */
+
+
+
+
