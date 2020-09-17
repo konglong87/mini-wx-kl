@@ -1,8 +1,10 @@
 /* pages/demo5/demo5.wxss */
 .header{
   width: 750rpx;
-  height: 150rpx;
-  border: 1px solid yellow;
+  height: 90rpx;
+  border: 1px solid rgb(185, 185, 6);
+  /* justify-content: space-between;
+  vertical-align: middle; */
 }
 
 
@@ -16,17 +18,78 @@
 
 .hdCon{
   /* 私用模块，使用flex弹性盒模型，*/
-  height: 100%;
+  /* width: 750rpx;
+  height: 150rpx; */
+
+  /* 子元素 要 继承  父元素 header的高度，align-ments=center 才能生效, 可以试试*/
+  height: 100%; 
   display: flex;
   justify-content: space-between;
+  padding: 2rpx;
   align-items: center;
+  /* vertical-align: middle; */
+  /* border: darkblue 1rpx solid; */
 }
 
 .hdCon navigator{
+  height: 60rpx;
+  vertical-align: bottom;
+  /* width: 150rpx; */
+}
+
+.hdCon .kefu{
   height: 50rpx;
 }
-
-.hdCon image{
+.hdCon  image{
   height: 100%;
+  /* width: 100rpx; */
 }
 
+/* 
+.img002{
+  height: 50rpx;
+  width: 100%;
+}
+
+.logo{
+  height: 100rpx;
+  width: 100%;
+} 
+*/
+
+/* 
+.aaa{
+  height: 150rpx;
+  width: 100%;
+}
+
+ */
+
+
+
+
+
+
+
+
+/* ，子绝父相， */
+.kefu{
+  /* 不加这行，页面出不来，，，，子绝父相， */
+  position: relative;
+  animation: dh001 1s infinite alternate linear;
+
+}
+ .kefu .btn05001{
+   /* 绝对定位，子绝父相，，，，，父亲是相对 */
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   /* 加一个透明色，吧客服按钮肉眼能看见，实际上点击的还是这个button，穿上了一层透明的 */
+   opacity: 0; 
+
+   /* 动画  liner匀速  infinite无限进行下去  1s周期  alternate交替轮流 */
+   /* 由于在btn上加动画，btn还是会显示出来，所以把动画加到 整个  kefu 上面 */
+   /* animation: dh001 1s infinite alternate linear; */
+ }
