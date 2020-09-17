@@ -1,0 +1,32 @@
+/* pages/demo5/demo5.wxss */
+.header{
+  width: 750rpx;
+  height: 150rpx;
+  border: 1px solid yellow;
+}
+
+
+/* 这个东西应该在app.wxss中设置，因为是公用的 */
+/* .continer05{
+  padding: 1rpx 27rpx ;
+  box-sizing: border-box;
+  /* 公用模块，不能使用flex弹性盒模型，需要用box固定模型 
+} 
+*/
+
+.hdCon{
+  /* 私用模块，使用flex弹性盒模型，*/
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hdCon navigator{
+  height: 50rpx;
+}
+
+.hdCon image{
+  height: 100%;
+}
+

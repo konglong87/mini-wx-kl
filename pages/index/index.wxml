@@ -12,6 +12,8 @@
   </view>
 </view>
 
+
+<navigator url="/pages/demo5/demo5" open-type="navigate" style="width:99rpx; height:99rpx; background:red; display: flex;flex-direction: column;justify-content: space-between"> 去demo5 </navigator>
 <navigator url="/pages/demo3/demo3" open-type="switchTab" style="width:200rpx; height:200rpx; background:blue;"> 去demo3 </navigator>
 <view >
     <button type="primary" bindtap="button001">对对对</button>

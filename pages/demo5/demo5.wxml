@@ -1,0 +1,21 @@
+<!--pages/demo5/demo5.wxml-->
+<view class="header">
+  <!-- 定定义两个类名，一个公用，，一个私用 -->
+  <view class="continer05 hdCon">
+    <navigator class="logo">
+        <image mode="widthFix" src="/images/uugai.com_1600306670412.png"></image>
+    </navigator>
+
+    <navigator class="k efu">
+<image src="/images/kefu001.png"></image>
+    </navigator>
+  </view>
+</view>
+
+<text>底看好</text>
+
+<text>底看0好</text>
+
+<view class="aaa">
+  <image src="/images/find_pic_banner1_n.png"></image>
+</view>

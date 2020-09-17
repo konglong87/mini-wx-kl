@@ -9,6 +9,12 @@
   box-sizing: border-box;
 } 
 
+.continer05{
+  padding: 1rpx 27rpx ;
+  box-sizing: border-box;
+  /* 公用模块，不能使用flex弹性盒模型，需要用box固定模型 */
+}
+
 image{
   flex-wrap: nowrap;
   width: 100%;
