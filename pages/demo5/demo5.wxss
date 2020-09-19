@@ -174,3 +174,101 @@
 
 
 
+
+.work05{
+
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  background: cornsilk;
+  /*       上     左右   下 */
+  /* padding: 90rpx 0 20rpx; */
+}
+.pubTitle05{
+  height: 59rpx;
+  border: steelblue 2px solid;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  /* margin-bottom: 60rpx; */
+}
+.pubTitle05 .more05{
+  font-size: 39rpx;
+  color: #777;
+}
+
+.pubTitle05 .room05{
+  font-size: 39rpx;
+  height: 100%;
+  padding-left: 27rpx;
+}
+
+.pubTitle05 .room05::before{
+  /* color: red; */
+  background: red;
+  height: 39rpx;
+  width: 10rpx;
+  content: "";
+  display: block;
+  padding-right: 2rpx;
+  position: absolute;
+  left: 2rpx;
+  top: 38%;
+  margin-top: -15rpx;
+}
+
+.main05{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main05  .main05-box05{
+  height: 212rpx;
+  width: 343rpx;
+  margin-bottom: 22rpx;
+
+  /* 遮罩层，加了绝对定位，父亲就得加相对定位 */
+  position: relative;
+}
+
+.main05-box05 .main05-pic-05{
+  width: 100%;
+  height: 100%;
+}
+
+.main05 .ceng05{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.main05 .ceng05 .title05{
+  font-size: 27rpx;
+  text-align: center;
+}
+
+.main05 .ceng05 .line05{
+  width: 50rpx;
+  height: 7rpx;
+  background-color: rgba(0,0,0, 0.9);
+  margin: 9rpx;
+}
+
+.main05 .ceng05 .description05{
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 22rpx;
+  letter-spacing: 2rpx;
+}
+
+
+
+

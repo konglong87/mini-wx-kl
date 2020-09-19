@@ -21,13 +21,13 @@
 <view class="banner05">
   <swiper autoplay="true" interval="2200" indicator-dots="true" circular="true" indicator-active-color="#fff"> 
     <swiper-item>
-      <image mode="" src="/images/find_pic_banner11_n.png"></image>
+      <image mode="" src="/images02/find_pic_banner11_n.png"></image>
     </swiper-item>
       <swiper-item>
-      <image src="/images/find_pic_banner12_n.png"></image>
+      <image src="/images02/find_pic_banner12_n.png"></image>
       </swiper-item>
       <swiper-item>
-      <image src="/images/find_pic_banner13_n.png"></image>
+      <image src="/images02/find_pic_banner13_n.png"></image>
     </swiper-item>
   </swiper>
 </view>
@@ -72,3 +72,140 @@
 
   </view>
 </scroll-view>
+
+
+<view class="work05">
+  <view class="continer05">
+      <view class="pubTitle05">
+        <view class="room05">有趣房间</view>
+        <navigator class="more05">更多></navigator>
+      </view>
+
+      <view class="main05">
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/images/room_type_1.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">一起聊天</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+
+       
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_5.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">一起吃鸡</view>
+             <view class="line05"></view>
+             <view class="description05">come on,eat chinken</view>
+           </view>
+         </navigator>
+
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_6.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">睡觉</view>
+             <view class="line05"></view>
+             <view class="description05">一起睡觉奥 on</view>
+           </view>
+         </navigator>
+
+          <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_7.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">一起吃饭</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_5.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">来吧聊天</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_6.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">唱歌-歌神</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_7.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">echo专房</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_8.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">打呼噜</view>
+             <view class="line05"></view>
+             <view class="description05">come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_9.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">敢不敢</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator> <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_10.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">不想开学</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_9.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">老师在上课</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_11.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">回家喽</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_7.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">二次元jk</view>
+             <view class="line05"></view>
+             <view class="description05">want chat? come on</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_9.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">八卦的进来</view>
+             <view class="line05"></view>
+             <view class="description05">听说，尊金王一迪和大黄蜂科技好看发的红包飞</view>
+           </view>
+         </navigator>
+         <navigator class="main05-box05" >
+           <image mode="" class="main05-pic-05" src="/image03/room_type_8.jpg"></image>
+           <view class="ceng05">
+             <view class="title05">只想骂人，在线骂人</view>
+             <view class="line05"></view>
+             <view class="description05">凤凰健康奋达科技风科技的病端口</view>
+           </view>
+         </navigator>
+
+      </view>
+</view>
+</view>
