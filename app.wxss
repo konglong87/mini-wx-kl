@@ -12,8 +12,11 @@
 .continer05{
   padding: 1rpx 27rpx ;
   box-sizing: border-box;
-  height: 150rpx;
-  width: 750rpx;
+
+  /* 修复  小班团 一直和  有趣房间 挨着  的bug，因为 给continer05 这个公用的 continer05 定义了 确定的宽高，所以不能 动态伸缩*/
+  /* height: 150rpx;
+  width: 750rpx; */
+  border: 2px yellow solid;
   /* 公用模块，不能使用flex弹性盒模型，需要用box固定模型 */
 }
 

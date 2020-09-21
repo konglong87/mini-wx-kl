@@ -2,6 +2,7 @@
 <view class="header">
   <!-- 定定义两个类名，一个公用，，一个私用 -->
   <view class="continer05 hdCon">
+  <!-- <view class="continer05 hdCon"> -->
     <navigator class="logo">
         <image mode="heightFix" src="/images/uugai.com_1600306670412.png"></image>
     </navigator>
@@ -76,6 +77,7 @@
 
 <view class="work05">
   <view class="continer05">
+
       <view class="pubTitle05">
         <view class="room05">有趣房间</view>
         <navigator class="more05">更多></navigator>
@@ -207,5 +209,23 @@
          </navigator>
 
       </view>
+  </view>
 </view>
+
+
+
+
+<view class="dynamic005">
+  <!-- <view class="continer05">
+    <view class="dynamic-continer-pubTitle005">
+        <view class="little_group_005">小班团22</view>
+        <navigator class="little_group_more005">更多22></navigator>
+      </view>
+  </view> -->
+  <view class="continer05">
+      <view class="pubTitle05">
+        <view class="room05">小班团</view>
+        <navigator class="more05">更多></navigator>
+      </view>
+  </view>
 </view>
