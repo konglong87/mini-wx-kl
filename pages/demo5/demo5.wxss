@@ -282,4 +282,62 @@
 
 
 
+.xbtItem05{
+  height: 199rpx;
+  display: flex;
+  padding: 15rpx 22rpx;
+  border: 1rpx dashed rgb(223, 15, 15);
+  justify-content: space-between;
+}
+
+.xbtItem05 .xbtPic05{
+  height: 100%;
+  flex: 4;
+}
+
+/* 
+或者
+.xbtPic05{
+   height: 230rpx;
+  width: 15rpx;
+}
+.xbtPic05 .image{
+  width: 100%;
+  height: 100%;
+} 
+*/
+
+.xbtItem05 .xbtTxt05{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 7rpx;
+}
+
+.xbtItem05 .xbtTitle05{
+  font-size: 27rpx;
+  color: brown;
+}
+
+.xbtItem05 .xbtInfo05 text{
+  font-size: 18rpx;
+}
+
+
+.footer05{
+  text-align: center;
+  padding: 27rpx 0;
+}
+
+.footer05 .pic05 image{
+  width: 250rpx;
+}
+
+
+.footer05 .txt05{
+font-size: 27rpx;
+color: chocolate;
+}
+
 
