@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    xbtDataList:[],
 
   },
 
@@ -12,6 +13,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.request({
+      url: 'http://ku.qingnian8.com/school/list.php?num=5',
+      success : res=>{
+          console.log("【这个结果是】==>>",res)
+          this.setData({
+            xbtDataList : res.data
+          })
+      }
+    })
 
   },
 

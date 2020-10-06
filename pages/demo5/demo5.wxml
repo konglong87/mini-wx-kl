@@ -229,17 +229,17 @@
       </view>
 
       <view class="xbtMain05">
-        <navigator url="/pages/index/index" open-type="switchTab" class="xbtItem05" wx:for="{{8}}">
+        <navigator url="/pages/index/index" open-type="switchTab" class="xbtItem05" wx:for="{{xbtDataList}}" wx:key="xbt_data">
                   <view class="xbtPic05">
-                    <image src="/image03/room_type_7.jpg" mode="aspectFill" ></image>
+                    <image src="{{item.picurl}}" mode="aspectFill" ></image>
                   </view>
 
                   <view class="xbtTxt05">
-                    <view class="xbtTitle05"> 今天的天气是晴天啊</view>
+                    <view class="xbtTitle05"> 孔龙{{item.title}}</view>
                       <view class="xbtInfo05">
-                                <text>恐龙恐龙</text> 
+                                <text>{{item.author}}</text> 
                                 <text space="ensp">   --  </text>
-                                <text>时间 2020-10-02 8:27</text>
+                                <text>时间 {{item.posttime}}</text>
                                 
                       </view>
                   </view>
